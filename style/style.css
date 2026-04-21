@@ -15,6 +15,16 @@
     display: flex;
 }
 
+.btn-primary{
+    background-color: #ff900e;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
 
 /* dark 02 */
 .text-gray{
@@ -37,6 +47,12 @@
 
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 3rm;
 }
 .nav-item{
     list-style: none;
@@ -51,4 +67,32 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner related styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rm;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
