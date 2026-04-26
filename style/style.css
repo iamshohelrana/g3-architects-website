@@ -232,7 +232,9 @@ margin-bottom: 20px ;
 
 .fotter-text{
     text-align: center;
-    padding: 20px 20px  ;
+    padding: 20px 20px ;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* responsive media query */
